@@ -2,7 +2,8 @@
   "name": "next-on-netlify-demo",
   "scripts": {
     "dev": "next",
-    "build": "next build"
+    "build": "next build",
+    "postbuild": "next-on-netlify"
   },
   "dependencies": {
     "isomorphic-unfetch": "^3.0.0",
