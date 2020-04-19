@@ -1,3 +1,5 @@
+[![Netlify Status](https://api.netlify.com/api/v1/badges/3cab3713-1abb-4632-8bbb-eb2a1bca191a/deploy-status)](https://app.netlify.com/sites/next-on/deploys)
+
 # README
 
 This is a demo of a NextJS application with Server-Side Rendering (SSR).
