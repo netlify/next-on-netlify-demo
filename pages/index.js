@@ -6,6 +6,7 @@ const Index = ({ shows }) => (
     <img
       src="/next-on-netlify.png" alt="NextJS on Netlify Banner"
       style={{ maxWidth: '100%' }}/>
+
     <h1>NextJS on Netlify</h1>
     <p>
       This is a demo of a NextJS application with Server-Side Rendering (SSR).
@@ -24,8 +25,7 @@ const Index = ({ shows }) => (
       npm package.
     </p>
 
-    <hr/>
-
+    <h1>1. Server-Side Rendering Made Easy</h1>
     <p>
       This page is server-side rendered.
       <br/>
@@ -35,7 +35,6 @@ const Index = ({ shows }) => (
       Refresh this page to see it change.
     </p>
 
-    <h3>TV Shows</h3>
     <ul>
       {shows.map(({ id, name }) => (
         <li key={id}>
@@ -46,12 +45,59 @@ const Index = ({ shows }) => (
       ))}
     </ul>
 
+    <h1>2. Full Support for Dynamic Pages</h1>
     <p>
+      Dynamic pages, introduced in NextJS 9.2, are fully supported.
+      <br/>
       Click on a show to check out a server-side rendered page with dynamic
       routing (/shows/:id).
+    </p>
+
+    <ul>
+      {shows.slice(0, 3).map(({ id, name }) => (
+        <li key={id}>
+          <Link href="/shows/[id]" as={`/shows/${id}`}>
+            <a>#{id}: {name}</a>
+          </Link>
+        </li>
+      ))}
+    </ul>
+
+    <h1>3. Catch-All Routes? Included ✔</h1>
+    <p>You can even take advantage of
+      {' '}
+      <a href="https://nextjs.org/docs/routing/dynamic-routes#catch-all-routes">
+        NextJS' catch-all routes feature
+      </a>.
       <br/>
+      Here are three examples:
+    </p>
+    <ul>
+      <li>
+        <Link href="/shows/[...params]" as={`/shows/73/whatever/path/you/want`}>
+          <a>/shows/73/whatever/path/you/want</a>
+        </Link>
+      </li>
+      <li>
+        <Link href="/shows/[...params]" as={`/shows/94/whatever/path/you`}>
+          <a>/shows/94/whatever/path/you</a>
+        </Link>
+      </li>
+      <li>
+        <Link href="/shows/[...params]" as={`/shows/106/whatever/path`}>
+          <a>/shows/106/whatever/path</a>
+        </Link>
+      </li>
+    </ul>
+
+    <h1>4. Static Pages Stay Static</h1>
+    <p>
+      next-on-netlify automatically determines which pages are dynamic and
+      which ones are static.
       <br/>
-      Or check out one of these other pages:
+      Only dynamic pages are server-side rendered.
+      <br/>
+      Static pages are pre-rendered and served directly by Netlify's CDN.
     </p>
 
     <ul>
@@ -67,8 +113,9 @@ const Index = ({ shows }) => (
       </li>
     </ul>
 
+    <h1>Want to Learn More?</h1>
     <p>
-      Or check out the
+      Check out the
       {' '}
       <a href="https://github.com/FinnWoelm/next-on-netlify-demo">
         source code on GitHub
