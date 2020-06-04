@@ -7,7 +7,7 @@
   },
   "dependencies": {
     "next": "^9.4.4",
-    "next-on-netlify": "^1.2.0",
+    "next-on-netlify": "^2.0.0",
     "react": "^16.13.1",
     "react-dom": "^16.13.1"
   }
