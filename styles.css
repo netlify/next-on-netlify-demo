@@ -1,0 +1,29 @@
+html {
+  box-sizing: border-box;
+  font-size: 16px;
+}
+
+img {
+  max-width: 100%;
+  height: auto;
+}
+
+body {
+  font-family: 'Helvetica Neue', 'Helvetica', 'Arial', sans-serif;
+  padding: 0 20px;
+  max-width: 880px;
+  margin: 0 auto !important;
+  color: rgba(0,0,0,.87);
+}
+
+hr {
+  border: none;
+  border-bottom: 4px solid #ececec;
+  margin: 40px 0;
+}
+
+pre {
+  max-width: 100%;
+  overflow-x: scroll;
+  background: #ececec;
+}
