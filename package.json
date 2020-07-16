@@ -10,5 +10,8 @@
     "next-on-netlify": "^2.0.0",
     "react": "^16.13.1",
     "react-dom": "^16.13.1"
+  },
+  "devDependencies": {
+    "buffer-loader": "^0.1.0"
   }
 }
