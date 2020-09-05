@@ -1,6 +1,7 @@
 {
   "name": "next-on-netlify-demo",
   "scripts": {
+    "postinstall": "patch-package",
     "dev": "next",
     "build": "next build",
     "postbuild": "next-on-netlify"
@@ -8,6 +9,7 @@
   "dependencies": {
     "next": "^9.4.4",
     "next-on-netlify": "^2.3.0",
+    "patch-package": "^6.2.2",
     "react": "^16.13.1",
     "react-dom": "^16.13.1"
   },

@@ -1,0 +1,15 @@
+diff --git a/node_modules/next-on-netlify/lib/netlifyFunctionTemplate.js b/node_modules/next-on-netlify/lib/netlifyFunctionTemplate.js
+index f9fd1ab..4e65227 100644
+--- a/node_modules/next-on-netlify/lib/netlifyFunctionTemplate.js
++++ b/node_modules/next-on-netlify/lib/netlifyFunctionTemplate.js
+@@ -24,6 +24,10 @@ const callbackHandler = callback => (
+ )
+ 
+ exports.handler = (event, context, callback) => {
++  // Enable base64 support
++  console.log(process.env);
++  process.env.BINARY_SUPPORT = "yes";
++
+   // In netlify dev, we currently do not receive headers as multi value headers.
+   // So we manually set them from the plain headers. This should become
+   // redundant as soon as https://github.com/netlify/cli/pull/938 is published.
