@@ -135,6 +135,17 @@ const Index = () => (
           with content-type XML
         </a>
       </li>
+      <li>
+        <a href='/api/image'>
+          with image response
+        </a>
+        {' '}
+        (
+        <a href='https://github.com/FinnWoelm/next-on-netlify-demo/tree/master/pages/api/image.js'>
+          code
+        </a>
+        )
+      </li>
     </ul>
 
     <h2>Preview Mode</h2>
