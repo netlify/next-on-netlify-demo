@@ -12,7 +12,7 @@ const Index = () => (
         <img src="https://img.shields.io/npm/v/next-on-netlify" alt="NPM version" />
       </a>
       {' '}
-      <a href="https://github.com/FinnWoelm/next-on-netlify/blob/master/LICENSE" rel="nofollow">
+      <a href="https://github.com/netlify/next-on-netlify/blob/master/LICENSE" rel="nofollow">
         <img src="https://img.shields.io/npm/l/next-on-netlify" alt="MIT license" />
       </a>
       {' '}
