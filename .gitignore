@@ -1,3 +1,7 @@
+# next-on-netlify build output
+out_functions/
+out_publish/
+
 # Logs
 logs
 *.log

@@ -9,11 +9,11 @@ img {
 }
 
 body {
-  font-family: 'Helvetica Neue', 'Helvetica', 'Arial', sans-serif;
+  font-family: "Helvetica Neue", "Helvetica", "Arial", sans-serif;
   padding: 0 20px;
   max-width: 880px;
   margin: 0 auto !important;
-  color: rgba(0,0,0,.87);
+  color: rgba(0, 0, 0, 0.87);
 }
 
 hr {
