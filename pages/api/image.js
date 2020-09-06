@@ -1,4 +1,4 @@
-// Image source: Sumatangwang via Tenor: https://tenor.com/bfLqf.gif
+// Image source: queenlornz via Tenor: https://tenor.com/Y5kV.gif
 import rick from "buffer-loader!../../rick.gif";
 
 export default (req, res) => {
