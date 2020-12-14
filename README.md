@@ -1,4 +1,4 @@
-![next-on-netlify](https://github.com/netlify/next-on-netlify/blob/main/nextonnetlify.png)
+![next-on-netlify](https://github.com/netlify/next-on-netlify/blob/main/next-on-netlify.png)
 
 [![Netlify Status](https://api.netlify.com/api/v1/badges/3cab3713-1abb-4632-8bbb-eb2a1bca191a/deploy-status)](https://app.netlify.com/sites/next-on/deploys)
 
