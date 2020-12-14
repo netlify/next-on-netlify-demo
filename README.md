@@ -1,3 +1,5 @@
+[![Netlify Status](https://api.netlify.com/api/v1/badges/ff3c4a25-c35d-494f-877e-b8ad913f7d09/deploy-status)](https://app.netlify.com/sites/keen-meninsky-c5041a/deploys)
+
 ![next-on-netlify](https://github.com/netlify/next-on-netlify/blob/main/nextonnetlify.png)
 
 [![Netlify Status](https://api.netlify.com/api/v1/badges/3cab3713-1abb-4632-8bbb-eb2a1bca191a/deploy-status)](https://app.netlify.com/sites/next-on/deploys)
